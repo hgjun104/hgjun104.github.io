@@ -418,11 +418,21 @@ section h3.section-subheading {
     margin: 0 0 15px;
 }
 
+#portfolio .portfolio-item img{
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
 #portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+    height: 400px;
+    text-align:center;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -494,6 +504,7 @@ section h3.section-subheading {
     position: relative;
     padding: 0;
     list-style: none;
+    margin: auto;
 }
 
 .timeline:before {
@@ -556,13 +567,14 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: rgba(252, 192, 64, 0.801);;
+    background-color: rgba(66, 66, 66, 0.801);;
 }
 
 .timeline>li .timeline-image h4 {
-    margin-top: 12px;
-    font-size: 10px;
-    line-height: 14px;
+    margin-top: 24px;
+    font-size: 24px;
+    line-height: 24px;
+    
 }
 
 .timeline>li.timeline-inverted>.timeline-panel {
